@@ -12,6 +12,7 @@ public class test {
 		c.addArguments("--remote-allow-origins=*");
 		WebDriver driver = new ChromeDriver();
 		driver.get("https://www.facebook.com/");
+		System.out.println();
 	}
 
 }
